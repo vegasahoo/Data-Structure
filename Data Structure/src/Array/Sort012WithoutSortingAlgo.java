@@ -22,7 +22,6 @@ public class Sort012WithoutSortingAlgo {
                 low++;
             } else if (arr[mid] == 2) {
                 swap(arr,mid, high);
-                mid++;
                 high--;
 
             } else {
